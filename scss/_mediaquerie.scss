@@ -1,0 +1,22 @@
+/*Media phone index y cafe*/
+/*imagenes del index*/
+@media screen and (min-width: 0px) and (max-width: 767px) {
+  .index-imgs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*Posicion en columna version mobile body pagina de cafe*/
+  .flex-body-cafe {
+    @extend .index-imgs;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-body-cafe-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}

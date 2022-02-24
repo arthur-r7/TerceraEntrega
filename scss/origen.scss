@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+//variables//
+$color-body: burlywood;
+$nav-color: rgb(116, 65, 0);
+
+//map//
+$font-sizing: (
+  h1: 65px,
+  h2: 50px,
+  p: 15px,
+);
+
+@each $font, $size in $font-sizing {
+  #{$font} {
+    font-size: $size;
+  }
+}
+
+//import//
+@import "mediaquerie";
+
+//mixin//
+@mixin logo-size($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+.logo {
+  @include logo-size(50px, 50px);
+}
+
+body {
+  background-color: $color-body;
+}
+
+.navbar-bgcol {
+  background-color: $nav-color;
+}
+
+.imgs-cafe {
+  width: 33%;
+}
+
+.img-home {
+  width: 100%;
+  height: 100vh;
+}
+
+.text-justy {
+  text-align: justify;
+  margin-right: 10px;
+}
+
+/*imagenes carrusel pagina cafe*/
+
+.imgs-carousel {
+  width: 60%;
+  height: 400px;
+}
+
+/*imagenes del body*/
+.imgs-body {
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-shadow: 10px -12px 4px -7px rgba(0, 0, 0, 0.4);
+}
