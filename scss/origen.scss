@@ -6,6 +6,7 @@
 //variables//
 $color-body: burlywood;
 $nav-color: rgb(116, 65, 0);
+$p-color: black;
 
 //map//
 $font-sizing: (
@@ -35,6 +36,10 @@ $font-sizing: (
 
 body {
   background-color: $color-body;
+}
+
+p {
+  color: $p-color;
 }
 
 .navbar-bgcol {
@@ -69,3 +74,5 @@ body {
   margin-bottom: 10px;
   box-shadow: 10px -12px 4px -7px rgba(0, 0, 0, 0.4);
 }
+
+//paisajes//

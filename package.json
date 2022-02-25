@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arthur-r7/Desafio-Sass.git"
+    "url": "git+https://github.com/arthur-r7/TerceraEntrega.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/arthur-r7/Desafio-Sass/issues"
+    "url": "https://github.com/arthur-r7/TerceraEntrega/issues"
   },
-  "homepage": "https://github.com/arthur-r7/Desafio-Sass#readme",
+  "homepage": "https://github.com/arthur-r7/TerceraEntrega#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"

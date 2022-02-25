@@ -1,61 +1,140 @@
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 h1 {
-  font-size: 65px; }
+  font-size: 65px;
+}
 
 h2 {
-  font-size: 50px; }
+  font-size: 50px;
+}
 
 p {
-  font-size: 15px; }
+  font-size: 15px;
+}
 
 /*Media phone index y cafe*/
 /*imagenes del index*/
 @media screen and (min-width: 0px) and (max-width: 767px) {
-  .index-imgs, .flex-body-cafe {
+  .index-imgs,
+  .flex-body-cafe {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+  }
   /*Posicion en columna version mobile body pagina de cafe*/
   .flex-body-cafe {
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+  }
   .flex-body-cafe-reverse {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
-    align-items: center; } }
+    align-items: center;
+  }
+}
 
 .logo {
   width: 50px;
-  height: 50px; }
+  height: 50px;
+}
 
 body {
-  background-color: burlywood; }
+  background-color: burlywood;
+}
 
 .navbar-bgcol {
-  background-color: #744100; }
+  background-color: #744100;
+}
 
 .imgs-cafe {
-  width: 33%; }
+  width: 33%;
+}
 
 .img-home {
   width: 100%;
-  height: 100vh; }
+  height: 100vh;
+}
 
 .text-justy {
   text-align: justify;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
 /*imagenes carrusel pagina cafe*/
 .imgs-carousel {
   width: 60%;
-  height: 400px; }
+  height: 400px;
+}
 
 /*imagenes del body*/
 .imgs-body {
   border-radius: 15px;
   margin-right: 10px;
   margin-bottom: 10px;
-  box-shadow: 10px -12px 4px -7px rgba(0, 0, 0, 0.4); }
+  box-shadow: 10px -12px 4px -7px rgba(0, 0, 0, 0.4);
+}
+
+p {
+  color: black;
+}
+
+/*estilo formulario*/
+
+.contenedor {
+  background: #fff;
+  width: 800px;
+  max-width: 800px;
+  padding: 25px 40px 10px 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.contenedor .form {
+  padding: 30px 0 0 0 0;
+}
+
+.contenedor .form-row {
+  display: flex;
+  margin: 32px 0;
+}
+
+.contenedor .form-row .input-datos {
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+
+.contenedor .form-row .textarea {
+  height: 70px;
+}
+
+.input-datos input,
+.textarea textarea {
+  display: block;
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+
+.textarea textarea {
+  resize: none;
+  padding-top: 10px;
+}
+
+.input-datos label {
+  position: absolute;
+  bottom: 40px;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.textarea label {
+  width: 100%;
+  bottom: 30px;
+  background: #fff;
+}
